@@ -1,0 +1,2 @@
+welcome: Hello {{firstname}} and welcome to Business Sweden. Do you want to hear what's planned?
+event: On {{date}}, {{title}}
