@@ -6,9 +6,11 @@ app = Flask(__name__)
 
 ask = Ask(app, route='/')
 
+print("In main module")
 
 @ask.launch
 def starting_point():
+    print("Launch function invoked")
     welcome_msg = render_template('welcome', firstname='you')
     return question(welcome_msg)
 
